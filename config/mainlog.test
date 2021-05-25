@@ -1,0 +1,363 @@
+2021-05-13 23:09:27 1lhCxr-00083E-1f <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-13 23:09:27 1lhCxr-00083E-1f ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT029.eop-EUR03.prod.protection.outlook.com]
+2021-05-13 23:09:27 1lhCxr-00083P-Tq <= <> R=1lhCxr-00083E-1f U=Debian-exim P=local S=2450
+2021-05-13 23:09:27 1lhCxr-00083E-1f Completed
+2021-05-13 22:09:28 1lhCxr-00083P-Tq == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-13 22:09:28 1lhCxr-00083P-Tq ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-13 22:09:28 1lhCxr-00083P-Tq noreply@mail-dip.besign.app: error ignored
+2021-05-13 22:09:28 1lhCxr-00083P-Tq Completed
+2021-05-13 22:10:00 1lhCyO-00084H-BT <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-13 22:10:00 1lhCyO-00084H-BT H=gmail-smtp-in.l.google.com [2404:6800:4003:c00::1a] Network is unreachable
+2021-05-13 22:10:01 1lhCyO-00084H-BT => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918601 z185si3729917pfb.2 - gsmtp"
+2021-05-13 22:10:01 1lhCyO-00084H-BT Completed
+2021-05-13 22:10:12 1lhCya-00084a-FV <= noreply@mail-dip.besign.app U=root P=local S=341
+2021-05-13 22:10:13 1lhCya-00084a-FV ** phakorn.sila@outlook.com R=dnslookup T=remote_smtp H=outlook-com.olc.protection.outlook.com [104.47.56.161] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1373: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [CO1NAM11FT030.eop-nam11.prod.protection.outlook.com]
+2021-05-13 22:10:13 1lhCyb-00084g-IA <= <> R=1lhCya-00084a-FV U=Debian-exim P=local S=2469
+2021-05-13 22:10:13 1lhCya-00084a-FV Completed
+2021-05-13 22:10:13 1lhCyb-00084g-IA == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-13 22:10:13 1lhCyb-00084g-IA ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-13 22:10:13 1lhCyb-00084g-IA noreply@mail-dip.besign.app: error ignored
+2021-05-13 22:10:13 1lhCyb-00084g-IA Completed
+2021-05-13 22:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-13 22:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918948 w63si4143191pfb.65 - gsmtp"
+2021-05-13 22:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-13 22:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-13 22:15:50 1lhD42-0008BR-MX H=gmail-smtp-in.l.google.com [2404:6800:4003:c02::1a] Network is unreachable
+2021-05-13 22:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918951 m2si3415252plx.60 - gsmtp"
+2021-05-13 22:15:52 1lhD42-0008BR-MX Completed
+2021-05-13 22:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-13 22:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918954 m13si4231413plx.103 - gsmtp"
+2021-05-13 22:15:54 1lhD45-0008Bb-PM Completed
+2021-05-13 22:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-13 22:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918958 x17si4284208pll.420 - gsmtp"
+2021-05-13 22:15:58 1lhD48-0008Bl-VL Completed
+2021-05-13 22:16:02 1lhD4E-0008By-Ki <= noreply@mail-dip.besign.app U=root P=local S=341
+2021-05-13 22:16:04 1lhD4E-0008By-Ki ** phakorn.sila@outlook.com R=dnslookup T=remote_smtp H=outlook-com.olc.protection.outlook.com [104.47.56.161] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1373: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [CO1NAM11FT058.eop-nam11.prod.protection.outlook.com]
+2021-05-13 22:16:04 1lhD4G-0008C7-3S <= <> R=1lhD4E-0008By-Ki U=Debian-exim P=local S=2464
+2021-05-13 22:16:04 1lhD4E-0008By-Ki Completed
+2021-05-13 22:16:04 1lhD4G-0008C7-3S == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-13 22:16:04 1lhD4G-0008C7-3S ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-13 22:16:04 1lhD4G-0008C7-3S noreply@mail-dip.besign.app: error ignored
+2021-05-13 22:16:04 1lhD4G-0008C7-3S Completed
+2021-05-13 22:16:07 1lhD4J-0008CH-Ue <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-13 22:16:08 1lhD4J-0008CH-Ue H=aspmx.l.google.com [2404:6800:4003:c03::1a] Network is unreachable
+2021-05-13 22:16:09 1lhD4J-0008CH-Ue => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918969 r9si4206794pjd.142 - gsmtp"
+2021-05-13 22:16:09 1lhD4J-0008CH-Ue Completed
+2021-05-13 22:16:15 1lhD4R-0008CX-IC <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-13 22:16:15 1lhD4R-0008CX-IC H=aspmx.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-13 22:16:16 1lhD4R-0008CX-IC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918976 w16si4406169plg.350 - gsmtp"
+2021-05-13 22:16:16 1lhD4R-0008CX-IC Completed
+2021-05-13 22:16:53 1lhD53-0008DJ-90 <= noreply@mail-dip.besign.app U=root P=local S=333
+2021-05-13 22:16:53 1lhD53-0008DJ-90 H=gmail-smtp-in.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-13 22:16:54 1lhD53-0008DJ-90 => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620919014 s12si3742962pgg.7 - gsmtp"
+2021-05-13 22:16:54 1lhD53-0008DJ-90 Completed
+2021-05-14 07:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-14 07:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918948 w63si4143191pfb.65 - gsmtp"
+2021-05-14 07:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-14 07:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-14 07:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918951 m2si3415252plx.60 - gsmtp"
+2021-05-14 07:15:52 1lhD42-0008BR-MX Completed
+2021-05-14 07:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-14 07:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918954 m13si4231413plx.103 - gsmtp"
+2021-05-14 07:15:54 1lhD45-0008Bb-PM Completed
+2021-05-14 07:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-14 07:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918958 x17si4284208pll.420 - gsmtp"
+2021-05-14 07:15:58 1lhD48-0008Bl-VL Completed
+2021-05-14 09:09:27 1lhCxr-00083E-1f <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-14 09:09:27 1lhCxr-00083E-1f ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT029.eop-EUR03.prod.protection.outlook.com]
+2021-05-14 09:09:27 1lhCxr-00083P-Tq <= <> R=1lhCxr-00083E-1f U=Debian-exim P=local S=2450
+2021-05-14 09:09:27 1lhCxr-00083E-1f Completed
+2021-05-14 09:09:28 1lhCxr-00083P-Tq == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-14 09:09:28 1lhCxr-00083P-Tq ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-14 09:09:28 1lhCxr-00083P-Tq noreply@mail-dip.besign.app: error ignored
+2021-05-14 09:09:28 1lhCxr-00083P-Tq Completed
+2021-05-14 09:09:43 1lhCy7-00083p-CC <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-14 09:09:45 1lhCy7-00083p-CC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918585 g16si3976772pfi.92 - gsmtp"
+2021-05-14 09:09:45 1lhCy7-00083p-CC Completed
+2021-05-15 18:16:15 1lhD4R-0008CX-IC <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-15 18:16:15 1lhD4R-0008CX-IC H=aspmx.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-15 18:16:16 1lhD4R-0008CX-IC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918976 w16si4406169plg.350 - gsmtp"
+2021-05-15 18:16:16 1lhD4R-0008CX-IC Completed
+2021-05-15 18:16:53 1lhD53-0008DJ-90 <= noreply@mail-dip.besign.app U=root P=local S=333
+2021-05-15 18:16:53 1lhD53-0008DJ-90 H=gmail-smtp-in.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-15 18:16:54 1lhD53-0008DJ-90 => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620919014 s12si3742962pgg.7 - gsmtp"
+2021-05-15 18:16:54 1lhD53-0008DJ-90 Completed
+2021-05-15 18:17:15 1lhD4R-0008CX-IC <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-15 18:17:15 1lhD4R-0008CX-IC H=aspmx.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-15 18:17:16 1lhD4R-0008CX-IC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918976 w16si4406169plg.350 - gsmtp"
+2021-05-15 18:17:16 1lhD4R-0008CX-IC Completed
+2021-05-15 18:17:53 1lhD53-0008DJ-90 <= noreply@mail-dip.besign.app U=root P=local S=333
+2021-05-15 18:17:53 1lhD53-0008DJ-90 H=gmail-smtp-in.l.google.com [2404:6800:4003:c02::1b] Network is unreachable
+2021-05-15 18:17:54 1lhD53-0008DJ-90 => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620919014 s12si3742962pgg.7 - gsmtp"
+2021-05-15 18:17:54 1lhD53-0008DJ-90 Completed
+2021-05-16 22:09:27 1lhCxr-00083E-1f <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-16 22:09:27 1lhCxr-00083E-1f ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT029.eop-EUR03.prod.protection.outlook.com]
+2021-05-16 22:09:27 1lhCxr-00083P-Tq <= <> R=1lhCxr-00083E-1f U=Debian-exim P=local S=2450
+2021-05-16 22:09:27 1lhCxr-00083E-1f Completed
+2021-05-16 22:09:28 1lhCxr-00083P-Tq == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-16 22:09:28 1lhCxr-00083P-Tq ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-16 22:09:28 1lhCxr-00083P-Tq noreply@mail-dip.besign.app: error ignored
+2021-05-16 22:09:28 1lhCxr-00083P-Tq Completed
+2021-05-16 22:09:43 1lhCy7-00083p-CC <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-16 22:09:45 1lhCy7-00083p-CC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918585 g16si3976772pfi.92 - gsmtp"
+2021-05-16 22:09:45 1lhCy7-00083p-CC Completed
+2021-05-16 22:10:00 1lhCyO-00084H-BT <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-16 22:10:01 1lhCyO-00084H-BT => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918601 z185si3729917pfb.2 - gsmtp"
+2021-05-16 22:10:01 1lhCyO-00084H-BT Completed
+2021-05-16 22:10:12 1lhCya-00084a-FV <= noreply@mail-dip.besign.app U=root P=local S=341
+2021-05-16 22:10:13 1lhCya-00084a-FV ** phakorn.sila@outlook.com R=dnslookup T=remote_smtp H=outlook-com.olc.protection.outlook.com [104.47.56.161] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1373: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [CO1NAM11FT030.eop-nam11.prod.protection.outlook.com]
+2021-05-16 22:10:13 1lhCyb-00084g-IA <= <> R=1lhCya-00084a-FV U=Debian-exim P=local S=2469
+2021-05-16 22:10:13 1lhCya-00084a-FV Completed
+2021-05-16 22:10:13 1lhCyb-00084g-IA == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-16 22:10:13 1lhCyb-00084g-IA ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-16 22:10:13 1lhCyb-00084g-IA noreply@mail-dip.besign.app: error ignored
+2021-05-16 22:10:13 1lhCyb-00084g-IA Completed
+2021-05-17 07:06:30 1liXKg-00981X-Qz <= noreply@mail-dip.besign.app U=root P=local S=348
+2021-05-17 07:06:31 1liXKg-00981X-Qz ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined end of data: 550 5.7.1 Unfortunately, messages from [128.199.181.27] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT023.eop-EUR03.prod.protection.outlook.com]
+2021-05-17 07:06:31 1liXKh-00981l-Sj <= <> R=1liXKg-00981X-Qz U=Debian-exim P=local S=2468
+2021-05-17 07:06:31 1liXKg-00981X-Qz Completed
+2021-05-17 07:06:31 1liXKh-00981l-Sj ** noreply@mail-dip.besign.app: Unrouteable address
+2021-05-17 07:06:31 1liXKh-00981l-Sj Frozen (delivery error message)
+2021-05-17 07:11:36 1liXPc-00989N-Nc <= noreply@mail-dip.besign.app U=root P=local S=349
+2021-05-17 07:11:36 1liXPc-00989N-Nc H=gmail-smtp-in.l.google.com [2404:6800:4003:c04::1b] Network is unreachable
+2021-05-17 07:11:38 1liXPc-00989N-Nc ** phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com": SMTP error from remote mail server after pipelined end of data: 550-5.7.26 This message does not have authentication information or fails to\n550-5.7.26 pass authentication checks. To best protect our users from spam, the\n550-5.7.26 message has been blocked. Please visit\n550-5.7.26  https://support.google.com/mail/answer/81126#authentication for more\n550 5.7.26 information. a8si10350976pjo.146 - gsmtp
+2021-05-17 07:11:38 1liXPe-00989T-7b <= <> R=1liXPc-00989N-Nc U=Debian-exim P=local S=2518
+2021-05-17 07:11:38 1liXPc-00989N-Nc Completed
+2021-05-17 07:11:38 1liXPe-00989T-7b ** noreply@mail-dip.besign.app: Unrouteable address
+2021-05-17 07:11:38 1liXPe-00989T-7b Frozen (delivery error message)
+2021-05-17 07:12:17 1liXQH-00989e-GL <= noreply@mail-dip.besign.app U=root P=local S=349
+2021-05-17 07:12:18 1liXQH-00989e-GL ** phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com": SMTP error from remote mail server after pipelined end of data: 550-5.7.26 This message does not have authentication information or fails to\n550-5.7.26 pass authentication checks. To best protect our users from spam, the\n550-5.7.26 message has been blocked. Please visit\n550-5.7.26  https://support.google.com/mail/answer/81126#authentication for more\n550 5.7.26 information. g17si19084437pge.164 - gsmtp
+2021-05-17 07:12:18 1liXQI-00989i-LV <= <> R=1liXQH-00989e-GL U=Debian-exim P=local S=2515
+2021-05-17 07:12:18 1liXQH-00989e-GL Completed
+2021-05-17 07:12:18 1liXQI-00989i-LV ** noreply@mail-dip.besign.app: Unrouteable address
+2021-05-17 07:12:18 1liXQI-00989i-LV Frozen (delivery error message)
+2021-05-17 08:17:05 1liYQz-0098UB-Kg <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-17 08:17:06 1liYQz-0098UB-Kg H=aspmx.l.google.com [2404:6800:4003:c03::1a] Network is unreachable
+2021-05-17 08:17:08 1liYQz-0098UB-Kg => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK f6si17723712pjp.159 - gsmtp"
+2021-05-17 08:17:08 1liYQz-0098UB-Kg Completed
+2021-05-17 08:17:12 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-17 08:17:13 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-17 08:17:13 1liYR6-0098UM-D0 Completed
+2021-05-17 08:17:14 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-17 08:17:15 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-17 08:17:15 1liYR8-0098UR-Gi Completed
+2021-05-17 08:17:16 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-17 08:17:17 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-17 08:17:17 1liYRA-0098UW-Lp Completed
+2021-05-17 14:54:27 1liY55-0005UK-F2 <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-17 14:54:27 1liY55-0005UK-F2 H=aspmx.l.google.com [2404:6800:4003:c04::1a] Network is unreachable
+2021-05-17 14:54:29 1liY55-0005UK-F2 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238069 y11si15977274plg.369 - gsmtp"
+2021-05-17 14:54:29 1liY55-0005UK-F2 Completed
+2021-05-17 14:54:37 1liY5F-0005Uc-TS <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 14:54:37 1liY5F-0005Uc-TS H=gmail-smtp-in.l.google.com [2404:6800:4003:c04::1b] Network is unreachable
+2021-05-17 14:54:39 1liY5F-0005Uc-TS => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238079 b18si13020227pjq.50 - gsmtp"
+2021-05-17 14:54:39 1liY5F-0005Uc-TS Completed
+2021-05-17 14:54:47 1liY5P-0005Uq-VY <= noreply@mail-dip.besign.app U=root P=local S=333
+2021-05-17 14:54:49 1liY5P-0005Uq-VY => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238089 v13si18573646pgj.463 - gsmtp"
+2021-05-17 14:54:49 1liY5P-0005Uq-VY Completed
+2021-05-17 14:55:11 1liY5n-0005VK-J7 <= noreply@mail-dip.besign.app U=root P=local S=336
+2021-05-17 14:55:12 1liY5n-0005VK-J7 ** funs_1.6_@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com": SMTP error from remote mail server after RCPT TO:<funs_1.6_@gmail.com>: 550-5.1.1 The email account that you tried to reach does not exist. Please try\n550-5.1.1 double-checking the recipient's email address for typos or\n550-5.1.1 unnecessary spaces. Learn more at\n550 5.1.1  https://support.google.com/mail/?p=NoSuchUser y23si26600884pjd.66 - gsmtp
+2021-05-17 14:55:12 1liY5o-0005VR-Hx <= <> R=1liY5n-0005VK-J7 U=Debian-exim P=local S=2330
+2021-05-17 14:55:12 1liY5n-0005VK-J7 Completed
+2021-05-17 14:55:13 1liY5o-0005VR-Hx == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 14:55:13 1liY5o-0005VR-Hx ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 14:55:13 1liY5o-0005VR-Hx noreply@mail-dip.besign.app: error ignored
+2021-05-17 14:55:13 1liY5o-0005VR-Hx Completed
+2021-05-17 14:55:20 1liY5w-0005Vc-84 <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-17 14:55:21 1liY5w-0005Vc-84 ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.4.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Service unavailable, Client host [157.230.246.50] blocked using Spamhaus. To request removal from this list see https://www.spamhaus.org/query/ip/157.230.246.50 (AS3130). [AM5EUR02FT006.eop-EUR02.prod.protection.outlook.com]
+2021-05-17 14:55:21 1liY5x-0005Vg-37 <= <> R=1liY5w-0005Vc-84 U=Debian-exim P=local S=2282
+2021-05-17 14:55:21 1liY5w-0005Vc-84 Completed
+2021-05-17 14:55:21 1liY5x-0005Vg-37 == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 14:55:21 1liY5x-0005Vg-37 ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 14:55:21 1liY5x-0005Vg-37 noreply@mail-dip.besign.app: error ignored
+2021-05-17 14:55:21 1liY5x-0005Vg-37 Completed
+2021-05-17 14:55:35 1liY6B-0005Vx-3x <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-17 14:55:36 1liY6B-0005Vx-3x ** l3ioty@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.5.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1367: 550 5.7.1 Service unavailable, Client host [157.230.246.50] blocked using Spamhaus. To request removal from this list see https://www.spamhaus.org/query/ip/157.230.246.50 (AS3130). [HE1EUR02FT014.eop-EUR02.prod.protection.outlook.com]
+2021-05-17 14:55:36 1liY6C-0005W4-1s <= <> R=1liY6B-0005Vx-3x U=Debian-exim P=local S=2275
+2021-05-17 14:55:36 1liY6B-0005Vx-3x Completed
+2021-05-17 14:55:36 1liY6C-0005W4-1s == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 14:55:36 1liY6C-0005W4-1s ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 14:55:36 1liY6C-0005W4-1s noreply@mail-dip.besign.app: error ignored
+2021-05-17 14:55:36 1liY6C-0005W4-1s Completed
+2021-05-17 14:55:43 1liY6J-0005WF-E5 <= noreply@mail-dip.besign.app U=root P=local S=334
+2021-05-17 14:55:43 1liY6J-0005WF-E5 H=aspmx.l.google.com [2404:6800:4003:c03::1b] Network is unreachable
+2021-05-17 14:55:44 1liY6J-0005WF-E5 ** l3ioty@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com": SMTP error from remote mail server after RCPT TO:<l3ioty@thai-g.com>: 550-5.1.1 The email account that you tried to reach does not exist. Please try\n550-5.1.1 double-checking the recipient's email address for typos or\n550-5.1.1 unnecessary spaces. Learn more at\n550 5.1.1  https://support.google.com/mail/?p=NoSuchUser gn3si8382276pjb.79 - gsmtp
+2021-05-17 14:55:44 1liY6K-0005WJ-FN <= <> R=1liY6J-0005WF-E5 U=Debian-exim P=local S=2292
+2021-05-17 14:55:44 1liY6J-0005WF-E5 Completed
+2021-05-17 14:55:44 1liY6K-0005WJ-FN == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 14:55:44 1liY6K-0005WJ-FN ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 14:55:44 1liY6K-0005WJ-FN noreply@mail-dip.besign.app: error ignored
+2021-05-17 14:55:44 1liY6K-0005WJ-FN Completed
+2021-05-17 14:55:52 1liY6S-0005Wm-TN <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-17 14:55:54 1liY6S-0005Wm-TN => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238154 s8si16109976plr.109 - gsmtp"
+2021-05-17 14:55:54 1liY6S-0005Wm-TN Completed
+2021-05-17 14:56:19 1liY6t-0005XM-2P <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 14:56:20 1liY6t-0005XM-2P => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238180 q13si24594308pjq.126 - gsmtp"
+2021-05-17 14:56:20 1liY6t-0005XM-2P Completed
+2021-05-17 15:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 15:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918948 w63si4143191pfb.65 - gsmtp"
+2021-05-17 15:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-17 15:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 15:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918951 m2si3415252plx.60 - gsmtp"
+2021-05-17 15:15:52 1lhD42-0008BR-MX Completed
+2021-05-17 15:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 15:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918954 m13si4231413plx.103 - gsmtp"
+2021-05-17 15:15:54 1lhD45-0008Bb-PM Completed
+2021-05-17 15:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 15:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1620918958 x17si4284208pll.420 - gsmtp"
+2021-05-17 15:15:58 1lhD48-0008Bl-VL Completed
+2021-05-17 16:16:27 1lhCxr-00083E-1f <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-17 16:16:27 1lhCxr-00083E-1f ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT029.eop-EUR03.prod.protection.outlook.com]
+2021-05-17 16:16:27 1lhCxr-00083P-Tq <= <> R=1lhCxr-00083E-1f U=Debian-exim P=local S=2450
+2021-05-17 16:16:27 1lhCxr-00083E-1f Completed
+2021-05-17 16:16:28 1lhCxr-00083P-Tq == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 16:16:28 1lhCxr-00083P-Tq ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 16:16:28 1lhCxr-00083P-Tq noreply@mail-dip.besign.app: error ignored
+2021-05-17 16:16:28 1lhCxr-00083P-Tq Completed
+2021-05-17 18:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618948 w63si4143191pfb.65 - gsmtp"
+2021-05-17 18:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-17 18:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618951 m2si3415252plx.60 - gsmtp"
+2021-05-17 18:15:52 1lhD42-0008BR-MX Completed
+2021-05-17 18:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618954 m13si4231413plx.103 - gsmtp"
+2021-05-17 18:15:54 1lhD45-0008Bb-PM Completed
+2021-05-17 18:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618958 x17si4284208pll.420 - gsmtp"
+2021-05-17 18:15:58 1lhD48-0008Bl-VL Completed
+2021-05-17 18:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618948 w63si4143191pfb.65 - gsmtp"
+2021-05-17 18:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-17 18:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618951 m2si3415252plx.60 - gsmtp"
+2021-05-17 18:15:52 1lhD42-0008BR-MX Completed
+2021-05-17 18:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618954 m13si4231413plx.103 - gsmtp"
+2021-05-17 18:15:54 1lhD45-0008Bb-PM Completed
+2021-05-17 18:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 18:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618958 x17si4284208pll.420 - gsmtp"
+2021-05-17 18:15:58 1lhD48-0008Bl-VL Completed
+2021-05-17 19:16:27 1lhCxr-00083E-1f <= noreply@mail-dip.besign.app U=root P=local S=338
+2021-05-17 19:16:27 1lhCxr-00083E-1f ** funs_1.6_@hotmail.com R=dnslookup T=remote_smtp H=hotmail-com.olc.protection.outlook.com [104.47.9.33] SMTP error from remote mail server after pipelined MAIL FROM:<noreply@mail-dip.besign.app> SIZE=1370: 550 5.7.1 Unfortunately, messages from [157.230.246.50] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [VE1EUR03FT029.eop-EUR03.prod.protection.outlook.com]
+2021-05-17 19:16:27 1lhCxr-00083P-Tq <= <> R=1lhCxr-00083E-1f U=Debian-exim P=local S=2450
+2021-05-17 19:16:27 1lhCxr-00083E-1f Completed
+2021-05-17 19:16:28 1lhCxr-00083P-Tq == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-17 19:16:28 1lhCxr-00083P-Tq ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-17 19:16:28 1lhCxr-00083P-Tq noreply@mail-dip.besign.app: error ignored
+2021-05-17 19:16:28 1lhCxr-00083P-Tq Completed
+2021-05-17 20:15:47 1lhD3z-0008BG-Ov <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 20:15:48 1lhD3z-0008BG-Ov => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.68.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618948 w63si4143191pfb.65 - gsmtp"
+2021-05-17 20:15:48 1lhD3z-0008BG-Ov Completed
+2021-05-17 20:15:50 1lhD42-0008BR-MX <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 20:15:52 1lhD42-0008BR-MX => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618951 m2si3415252plx.60 - gsmtp"
+2021-05-17 20:15:52 1lhD42-0008BR-MX Completed
+2021-05-17 20:15:53 1lhD45-0008Bb-PM <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 20:15:54 1lhD45-0008Bb-PM => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618954 m13si4231413plx.103 - gsmtp"
+2021-05-17 20:15:54 1lhD45-0008Bb-PM Completed
+2021-05-17 20:15:56 1lhD48-0008Bl-VL <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-17 20:15:58 1lhD48-0008Bl-VL => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.200.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621618958 x17si4284208pll.420 - gsmtp"
+2021-05-17 20:15:58 1lhD48-0008Bl-VL Completed
+2021-05-18 08:17:12 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 08:17:13 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-18 08:17:13 1liYR6-0098UM-D0 Completed
+2021-05-18 08:17:14 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 08:17:15 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-18 08:17:15 1liYR8-0098UR-Gi Completed
+2021-05-18 08:17:16 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 08:17:17 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-18 08:17:17 1liYRA-0098UW-Lp Completed
+2021-05-18 14:54:27 1liY55-0005UK-F2 <= noreply@mail-dip.besign.app U=root P=local S=335
+2021-05-18 14:54:29 1liY55-0005UK-F2 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238069 y11si15977274plg.369 - gsmtp"
+2021-05-18 14:54:29 1liY55-0005UK-F2 Completed
+2021-05-18 14:54:37 1liY5F-0005Uc-TS <= noreply@mail-dip.besign.app U=root P=local S=339
+2021-05-18 14:54:39 1liY5F-0005Uc-TS => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238079 b18si13020227pjq.50 - gsmtp"
+2021-05-18 14:54:39 1liY5F-0005Uc-TS Completed
+2021-05-18 14:54:47 1liY5P-0005Uq-VY <= noreply@mail-dip.besign.app U=root P=local S=333
+2021-05-18 14:54:49 1liY5P-0005Uq-VY => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621238089 v13si18573646pgj.463 - gsmtp"
+2021-05-18 14:54:49 1liY5P-0005Uq-VY Completed
+2021-05-18 14:55:11 1liY5n-0005VK-J7 <= noreply@mail-dip.besign.app U=root P=local S=336
+2021-05-18 14:55:12 1liY5n-0005VK-J7 ** funs_1.6_@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com": SMTP error from remote mail server after RCPT TO:<funs_1.6_@gmail.com>: 550-5.1.1 The email account that you tried to reach does not exist. Please try\n550-5.1.1 double-checking the recipient's email address for typos or\n550-5.1.1 unnecessary spaces. Learn more at\n550 5.1.1  https://support.google.com/mail/?p=NoSuchUser y23si26600884pjd.66 - gsmtp
+2021-05-18 14:55:12 1liY5o-0005VR-Hx <= <> R=1liY5n-0005VK-J7 U=Debian-exim P=local S=2330
+2021-05-18 14:55:12 1liY5n-0005VK-J7 Completed
+2021-05-18 14:55:13 1liY5o-0005VR-Hx == noreply@mail-dip.besign.app R=dnslookup defer (-1): remote host address is the local host
+2021-05-18 14:55:13 1liY5o-0005VR-Hx ** noreply@mail-dip.besign.app: retry timeout exceeded
+2021-05-18 14:55:13 1liY5o-0005VR-Hx noreply@mail-dip.besign.app: error ignored
+2021-05-18 14:55:13 1liY5o-0005VR-Hx Completed
+2021-05-18 22:17:12 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:13 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-18 22:17:14 1liYR6-0098UM-D0 Completed
+2021-05-18 22:17:15 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:16 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-18 22:17:17 1liYR8-0098UR-Gi Completed
+2021-05-18 22:17:18 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:19 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-18 22:17:20 1liYRA-0098UW-Lp Completed
+2021-05-18 22:17:22 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:23 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-18 22:17:23 1liYR6-0098UM-D0 Completed
+2021-05-18 22:17:24 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:25 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-18 22:17:25 1liYR8-0098UR-Gi Completed
+2021-05-18 22:17:26 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:27 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-18 22:17:27 1liYRA-0098UW-Lp Completed
+2021-05-18 22:17:32 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:33 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-18 22:17:33 1liYR6-0098UM-D0 Completed
+2021-05-18 22:17:34 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:35 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-18 22:17:35 1liYR8-0098UR-Gi Completed
+2021-05-18 22:17:36 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:37 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-18 22:17:37 1liYRA-0098UW-Lp Completed
+2021-05-18 22:17:42 1liYR6-0098UM-D0 <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:43 1liYR6-0098UM-D0 => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK ck19si777039pjb.61 - gsmtp"
+2021-05-18 22:17:43 1liYR6-0098UM-D0 Completed
+2021-05-18 22:17:44 1liYR8-0098UR-Gi <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:45 1liYR8-0098UR-Gi => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK w207si3476206pfc.11 - gsmtp"
+2021-05-18 22:17:45 1liYR8-0098UR-Gi Completed
+2021-05-18 22:17:46 1liYRA-0098UW-Lp <= noreply@mail-dip.besign.app U=root P=local S=345
+2021-05-18 22:17:47 1liYRA-0098UW-Lp => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [172.217.194.26] X=TLS1.3:ECDHE_X25519__ECDSA_SECP256R1_SHA256__AES_256_GCM:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" K C="250 2.0.0 OK bj20si11578646pjb.167 - gsmtp"
+2021-05-18 22:17:47 1liYRA-0098UW-Lp Completed2021-05-19 17:56:35 no host name found for IP address 128.199.98.233
+2021-05-19 17:56:35 1ljJsR-0004YS-DE <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1486 id=CI7zagM6HzX8H2iOuRLCmHa6zfGXNitbgYzM6VfLT8@service.gsoftbiz.com
+2021-05-19 17:56:35 1ljJsR-0004YS-DE H=gmail-smtp-in.l.google.com [2404:6800:4003:c03::1a] Network is unreachable
+2021-05-19 17:56:37 1ljJsR-0004YS-DE => phakorn@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621421796 y5si2296055plh.128 - gsmtp"
+2021-05-19 17:56:37 1ljJsR-0004YS-DE Completed
+2021-05-19 17:56:57 no host name found for IP address 128.199.98.233
+2021-05-19 17:56:57 1ljJsn-0004Z9-DO <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1501 id=LV7oymJcX4sPTs9qT1zH3pt1ulDusYK44E2zNeW74Io@service.gsoftbiz.com
+2021-05-19 17:56:59 1ljJsn-0004Z9-DO => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621421818 c36si16927314pgb.124 - gsmtp"
+2021-05-19 17:56:59 1ljJsn-0004Z9-DO Completed
+2021-05-19 18:02:07 no host name found for IP address 128.199.98.233
+2021-05-19 18:02:07 1ljJxn-0004e6-0F <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1486 id=H89BG3AKenvYXHwJFMqeyrT2v4qA8b9LeZc53Rrc@service.gsoftbiz.com
+2021-05-19 18:02:08 1ljJxn-0004e6-0F => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621422128 x9si6432823plo.147 - gsmtp"
+2021-05-19 18:02:08 1ljJxn-0004e6-0F Completed
+2021-05-19 18:02:12 no host name found for IP address 128.199.98.233
+2021-05-19 18:02:12 1ljJxs-0004eF-OP <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1496 id=xbGALqLeyaQ2e5mItcvA2UuALuPIq9wVeHQP2DR1Xg@service.gsoftbiz.com
+2021-05-19 18:02:14 1ljJxs-0004eF-OP => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621422134 r19si26047756pjo.35 - gsmtp"
+2021-05-19 18:02:14 1ljJxs-0004eF-OP Completed
+2021-05-19 18:02:23 no host name found for IP address 128.199.98.233
+2021-05-19 18:02:23 1ljJy3-0004eQ-K5 <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1496 id=A6EDveDJuAGq2Mkk4SgG3rcrKEa3MICCMnUvrO3fzw@service.gsoftbiz.com
+2021-05-19 18:02:25 1ljJy3-0004eQ-K5 => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.26] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621422144 z67si30061633pfc.287 - gsmtp"
+2021-05-19 18:02:25 1ljJy3-0004eQ-K5 Completed
+2021-05-19 18:02:56 no host name found for IP address 128.199.98.233
+2021-05-19 18:02:56 1ljJya-0004eo-AT <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1489 id=Rbx1J30RIPRHDSWa5wqPXZE165BnXF2kpS5C4grl1NM@service.gsoftbiz.com
+2021-05-19 18:02:58 1ljJya-0004eo-AT => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621422178 o20si2498376pji.1 - gsmtp"
+2021-05-19 18:02:58 1ljJya-0004eo-AT Completed
+2021-05-19 18:09:00 Start queue run: pid=18352
+2021-05-19 18:09:00 End queue run: pid=18352
+2021-05-19 18:13:31 no host name found for IP address 45.144.225.89
+2021-05-19 18:13:34 H=(WIN-CLJ1B0GQ6JP) [45.144.225.89] F=<spameri@tiscali.it> rejected RCPT <spameri@tiscali.it>: relay not permitted
+2021-05-19 18:20:27 no host name found for IP address 128.199.98.233
+2021-05-19 18:20:27 1ljKFX-00052o-Rw <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1469 id=UyygXDvpVyiqCuGFwW5VE3a7R5J5oUesFKtfKvc@service.gsoftbiz.com
+2021-05-19 18:20:27 1ljKFX-00052o-Rw H=gmail-smtp-in.l.google.com [2404:6800:4003:c03::1b] Network is unreachable
+2021-05-19 18:20:29 1ljKFX-00052o-Rw => l3ioty@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621423229 g12si25795881pfi.75 - gsmtp"
+2021-05-19 18:20:29 1ljKFX-00052o-Rw Completed
+2021-05-19 18:20:43 no host name found for IP address 128.199.98.233
+2021-05-19 18:20:43 1ljKFn-000532-8V <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1496 id=Rjd0VWrz21Gvbaft69oXTkAWM9E5tbWO94TW4LWVMM@service.gsoftbiz.com
+2021-05-19 18:20:44 1ljKFn-000532-8V => phakorn.sila@gmail.com R=dnslookup T=remote_smtp H=gmail-smtp-in.l.google.com [172.217.194.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621423244 o30si12743724pgl.411 - gsmtp"
+2021-05-19 18:20:44 1ljKFn-000532-8V Completed
+2021-05-19 18:21:12 no host name found for IP address 128.199.98.233
+2021-05-19 18:21:12 1ljKGG-00053Q-JC <= noreply@mail-dip.besign.app H=(service.gsoftbiz.com) [128.199.98.233] P=esmtp S=1488 id=xY2cUJwDnnhswesLSYkqOp4esCeSISiU3NSEFOsqgE@service.gsoftbiz.com
+2021-05-19 18:21:14 1ljKGG-00053Q-JC => phakorn@thai-g.com R=dnslookup T=remote_smtp H=aspmx.l.google.com [74.125.24.27] X=TLS1.2:ECDHE_ECDSA_CHACHA20_POLY1305:256 CV=yes DN="C=US,ST=California,L=Mountain View,O=Google LLC,CN=mx.google.com" C="250 2.0.0 OK  1621423274 v18si7118778pjg.59 - gsmtp"
+2021-05-19 18:21:14 1ljKGG-00053Q-JC Completed
