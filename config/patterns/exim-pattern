@@ -13,13 +13,20 @@ EXIM_QT (QT=(%{NUMBER:exim_qt_d}d)?(%{NUMBER:exim_qt_h}h)?(%{NUMBER:exim_qt_m}m)
 EXIM_CV (CV=(?<exim_cert_verified>yes|no))
 EXIM_REMOTE_REPLY (C=%{QS:remote_reply})
 EXIM_DEF (\(%{NUMBER:exim_defer_code}\)( %{EXIM_REMOTE_HOST})?: %{GREEDYDATA:exim_defer_text})
-EXIM_EXCLUDE_TERMS (Message is frozen|(Start|End) queue run| Warning: | retry time not reached | no (IP address|host name) found for (IP address|host) | unexpected disconnection while reading SMTP command | no immediate delivery: |another process is handling this message | SSL verify error)
-EXIM_COMPLETED %{EXIM_DATE} %{EXIM_MSGID} (%{GREEDYDATA:exim_status_text})
+EXIM_EXCLUDE_TERMS (Message is frozen|(Start|End) queue run| Warning: | retry time not reached | no (IP address|host name) found for (IP address|host) | unexpected disconnection while reading SMTP command | no immediate delivery: |another process is handling this message | SSL verify error|The email account that you tried to reach does not exist.|This message does not have authentication information or fails|blocked using Spamhaus.|retry timeout exceeded)
+
+EXIM_HOST_DNS (<%{NOTSPACE:env_rcpt_outer}> )?(R=%{NOTSPACE:exim_router} )(T=%{NOTSPACE:exim_transport} )(%{EXIM_REMOTE_HOST})
 
 
-EXIM_DELIVERED (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (<%{NOTSPACE:env_rcpt_outer}> )?(R=%{NOTSPACE:exim_router} )(T=%{NOTSPACE:exim_transport} )(%{EXIM_REMOTE_HOST} )(X=%{NOTSPACE:tls_info} )(%{EXIM_CV}) (DN=\"%{GREEDYDATA}\") (%{GREEDYDATA})
-EXIM_FAILED (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (<%{NOTSPACE:env_rcpt_outer}> )?(R=%{NOTSPACE:exim_router} )(T=%{NOTSPACE:exim_transport} )(H=(%{NOTSPACE:remote_hostname})) (\[%{IP:remote_host}\]) (X=%{NOTSPACE:tls_info}) (%{EXIM_CV}) (DN=\"%{GREEDYDATA}\"): (%{GREEDYDATA:exim_status_text})
+EXIM_RECEIVED_SMTP (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (%{EXIM_REMOTE_HOST}) (%{EXIM_PROTOCOL}) (%{EXIM_MSG_SIZE}) (%{EXIM_HEADER_ID})
+EXIM_RECEIVED_LOCAL (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (U=%{USER}) (%{EXIM_PROTOCOL}) (%{EXIM_MSG_SIZE})
+
+EXIM_DELIVERED (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (%{EXIM_HOST_DNS}) (X=%{NOTSPACE:tls_info} )(%{EXIM_CV}) (DN=\"%{GREEDYDATA}\") (%{GREEDYDATA})
+
+EXIM_FAILED_NOT_EXIST (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (%{EXIM_HOST_DNS}) (X=%{NOTSPACE:tls_info}) (%{EXIM_CV}) (DN=\"%{GREEDYDATA}\"): (%{GREEDYDATA}) (%{EXIM_EXCLUDE_TERMS:exim_status_text})
+EXIM_FAILED_BLOCK (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) ((%{EXIM_HOST_DNS})|(%{EXIM_HOST_DNS}):) (%{GREEDYDATA}) (%{EXIM_EXCLUDE_TERMS:exim_status_text})
+EXIM_FAILED_TIMEOUT (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}): (%{EXIM_EXCLUDE_TERMS:exim_status_text})
+
 EXIM_DEFERRED (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:email_address}) (<%{NOTSPACE:env_rcpt_outer}> )?(R=%{NOTSPACE:exim_router} )(defer) \(%{NUMBER}\): (%{GREEDYDATA:exim_status_text})
-EXIM_RECEIVED (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_id}) (%{EXIM_FLAG:exim_flag}) (%{EMAIL:sender_email}) (U=%{USER}) (%{EXIM_PROTOCOL}) (%{EXIM_MSG_SIZE})
-EXIM_DELIVERED_COMPLETED (%{EXIM_DATE}) (%{EXIM_MSGID}) (%{EXIM_FLAG}) (%{EMAIL:sender_email}) (%{GREEDYDATA})\n(%{EXIM_DELIVERED})\n(%{EXIM_COMPLETED})
-EXIM_DELIVERED_NO_COMPLETED (%{EXIM_DATE}) (%{EXIM_MSGID}) (%{GREEDYDATA})\n(%{EXIM_DELIVERED})\n(%{EXIM_COMPLETED})
+
+EXIM_RE_ID (%{EXIM_DATE:exim_date}) (%{EXIM_MSGID:exim_msg_new_id}) <= <> (%{EXIM_MSGID:exim_msg_id})
