@@ -19,9 +19,10 @@ services:
       - "9300:9300"
     environment:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
-      ELASTIC_PASSWORD: changeme
-      # Use single node discovery in order to disable production mode and avoid bootstrap checks.
-      # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
+      ELASTIC_PASSWORD: "St192b0R98"
+      http.cors.enabled: "true"
+      http.cors.allow-origin: "*"
+      xpack.security.enabled: "true"
       discovery.type: single-node
     networks:
       - elk
